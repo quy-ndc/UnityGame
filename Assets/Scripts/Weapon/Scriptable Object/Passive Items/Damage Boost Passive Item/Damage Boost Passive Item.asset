@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e598fc7b0a2d6c5458200419b8416284, type: 3}
+  m_Name: Damage Boost Passive Item
+  m_EditorClassIdentifier: 
+  multiplier: 100
+  level: 1
+  nextLevelPrefab: {fileID: 3201973176009478420, guid: 4a85a9001e244de44a82d131d443504d, type: 3}
+  icon: {fileID: 1227399825, guid: ac5fa68e2eec54a45bd5e5a50bbf44f2, type: 3}

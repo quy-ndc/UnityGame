@@ -1,0 +1,4 @@
+1. Fix chunks spawning
+2. Controller movement
+3. Enemies don't always spawn loot
+4. Quit button messes game up
