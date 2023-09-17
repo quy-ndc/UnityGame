@@ -119,7 +119,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -147,7 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e2b2ed62886814ca2d23bd1834c833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: a018e31ca7f366f43bb7a3f6e79bd616, type: 2}
 --- !u!114 &-8290532211892779190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +160,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: a018e31ca7f366f43bb7a3f6e79bd616, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
+  despawnDistance: 20
 --- !u!114 &-8693625163750108463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,4 +179,4 @@ MonoBehaviour:
   drops:
   - name: Blue gem
     itemPrefab: {fileID: 621552313584388304, guid: 0804d0ac246b3d44d967b8b14d303d26, type: 3}
-    dropRate: 50
+    dropRate: 100
